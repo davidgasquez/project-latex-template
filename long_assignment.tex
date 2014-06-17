@@ -1,0 +1,94 @@
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+% Paquetes
+%----------------------------------------------------------------------------------------
+
+% Permite reconocer acentos
+\usepackage[utf8]{inputenc}
+% Salida correcta para copiar desde el PDF
+\usepackage[T1]{fontenc} 
+% Anchura correcta de los márgenes
+\usepackage{a4wide} 
+% Usar la fuente Latin Modern
+\usepackage{lmodern}
+% Establece el idioma del documento
+\usepackage[spanish,es-tabla]{babel}
+% Permite instertar imágenes
+\usepackage{graphicx}
+% Control de los párrafos
+\usepackage{parskip}
+% Modifica el índice
+\usepackage[nottoc,numbib]{tocbibind}
+% Diferentes tamaños de letra
+\usepackage{anyfontsize}
+% AMS
+\usepackage{amsmath, amsfonts, amssymb}
+% Mejor apariencia del texto
+\usepackage{microtype}
+% Personalizar los encabezados y pies de página
+\usepackage{fancyhdr}
+% Mejores tablas 
+\usepackage{booktabs}
+% Hipervínculos
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+
+% Información del Documento
+\title{Título}
+\author{Nombre Completo}
+\date{}
+
+% Indentar los párrafos
+\setlength{\parindent}{\baselineskip}
+\linespread{1.25}
+
+\begin{document}
+
+\include{title_page}
+
+%----------------------------------------------------------------------------------------
+%	Índice
+%----------------------------------------------------------------------------------------
+\renewcommand{\contentsname}{\centering Índice}
+\tableofcontents
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	Contenido
+%----------------------------------------------------------------------------------------
+
+\section{Lorem}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae mauris pulvinar, rutrum nisi eu, laoreet purus. Mauris luctus nisi magna, et semper est semper malesuada. Praesent in nulla iaculis, lobortis elit id, condimentum ante. In scelerisque ultrices nisl at ullamcorper. Sed varius placerat massa. Praesent ac lorem et elit tempus suscipit eget vitae orci. Nulla rhoncus sed diam nec ornare. Curabitur sagittis viverra malesuada. In volutpat turpis et libero consectetur, imperdiet accumsan mi rutrum.
+
+\subsection{Ipsum}
+Quisque euismod varius elit, id posuere purus ultricies vel. Nullam porttitor, augue ut tempus tincidunt, diam purus hendrerit metus, et auctor lacus ipsum convallis urna. Cras ultrices convallis leo sit amet congue. Nunc arcu felis, scelerisque in purus vel, dapibus pellentesque sapien. Nulla venenatis tincidunt neque et tristique. Cras blandit diam sit amet justo ornare, ac tristique libero mattis. Integer ultricies purus dapibus lacus imperdiet dapibus. Aenean sagittis cursus purus eget vehicula. Morbi in venenatis nunc, nec cursus odio. Nam elementum pulvinar nisl, non rutrum nulla vestibulum at. Nunc feugiat mollis eros ac sagittis.
+
+\subsubsection*{Nulla}
+Nullam et tempus dui. Nulla ullamcorper sem vel augue lobortis viverra. Suspendisse sit amet arcu ante. Curabitur viverra erat magna, at congue leo aliquam a. Donec quis sollicitudin urna. Nam neque lacus, semper et velit at, lacinia facilisis tellus. Suspendisse ante lorem, fringilla quis enim ac, placerat mattis urna. Fusce quis adipiscing diam, ac gravida augue. Phasellus non turpis quam. Morbi consequat enim pretium, sagittis nisl quis, tempus leo. Sed elementum odio in felis viverra, ut tincidunt sapien ullamcorper. Fusce ut est sit amet est dictum hendrerit. Quisque tincidunt viverra nulla eget scelerisque. Praesent congue dapibus nibh quis fringilla. Phasellus urna sem, interdum ultrices diam ut, bibendum vehicula lacus.
+
+\newpage
+\section{Say my name}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae mauris pulvinar, rutrum nisi eu, laoreet purus. Mauris luctus nisi magna, et semper est semper malesuada. Praesent in nulla iaculis, lobortis elit id, condimentum ante. In scelerisque ultrices nisl at ullamcorper. Sed varius placerat massa. Praesent ac lorem et elit tempus suscipit eget vitae orci. Nulla rhoncus sed diam nec ornare. Curabitur sagittis viverra malesuada. In volutpat turpis et libero consectetur, imperdiet accumsan mi rutrum.
+
+Quisque euismod varius elit, id posuere purus ultricies vel. Nullam porttitor, augue ut tempus tincidunt, diam purus hendrerit metus, et auctor lacus ipsum convallis urna. Cras ultrices convallis leo sit amet congue. Nunc arcu felis, scelerisque in purus vel, dapibus pellentesque sapien. Nulla venenatis tincidunt neque et tristique. Cras blandit diam sit amet justo ornare, ac tristique libero mattis. Integer ultricies purus dapibus lacus imperdiet dapibus. Aenean sagittis cursus purus eget vehicula. Morbi in venenatis nunc, nec cursus odio. Nam elementum pulvinar nisl, non rutrum nulla vestibulum at. Nunc feugiat mollis eros ac sagittis.
+
+\subsubsection*{Nulla}
+Nullam et tempus dui. Nulla ullamcorper sem vel augue lobortis viverra. Suspendisse sit amet arcu ante. Curabitur viverra erat magna, at congue leo aliquam a. Donec quis sollicitudin urna. Nam neque lacus, semper et velit at, lacinia facilisis tellus. Suspendisse ante lorem, fringilla quis enim ac, placerat mattis urna. Fusce quis adipiscing diam, ac gravida augue. Phasellus non turpis quam. Morbi consequat enim pretium, sagittis nisl quis, tempus leo. Sed elementum odio in felis viverra, ut tincidunt sapien ullamcorper. Fusce ut est sit amet est dictum hendrerit. Quisque tincidunt viverra nulla eget scelerisque. Praesent congue dapibus nibh quis fringilla. Phasellus urna sem, interdum ultrices diam ut, bibendum vehicula lacus.
+
+Duis id metus iaculis, ultrices lorem in, ultrices felis. Aliquam luctus erat id lacus elementum fringilla quis eget felis. Donec tincidunt, dolor sed gravida ullamcorper, tortor mi egestas mi, sit amet accumsan ipsum metus in quam. Duis viverra odio erat, vel congue risus lobortis eget. 
+
+
+
+
+\newpage
+\begin{thebibliography}{99}
+
+\bibitem{main} Such a book. 2040. \emph{God}
+
+\end{thebibliography}
+
+
+
+\end{document}
