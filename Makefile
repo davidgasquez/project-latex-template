@@ -7,4 +7,4 @@ alert:
 	pdflatex -halt-on-error *.tex
 	
 clean: 
-	rm *.log *.nlo *.idx *.synctex* *.aux *.toc *.out 
+	rm *.log *.synctex* *.aux *.toc *.out 
