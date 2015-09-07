@@ -1,7 +1,8 @@
 Latex Template
 =======================
 
-The LaTeX file that I use as the base for all my university homeworks .
+The LaTeX file that I use as the base for all my university homeworks.
+
 
 ## Installing
 
