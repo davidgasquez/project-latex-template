@@ -5,6 +5,8 @@ The LaTeX file that I use as the base for all my university homeworks.
 
 [![](https://img.shields.io/badge/subject-LaTex-orange.svg)](http://www.latex-project.org/)
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+[![PDF](https://www.sharelatex.com/github/repos/davidgasquez/thesis-latex-template/builds/latest/badge.svg)](https://www.sharelatex.com/github/repos/davidgasquez/thesis-latex-template/builds/latest/output.pdf)
+
 
 
 ## Installing
