@@ -1,9 +1,14 @@
-.PHONY: project.pdf all clean
+.PHONY: latexmk clean dev pdf all
 
-all: project.pdf
+COMMON_FLAGS = -pdf
 
-project.pdf: project.tex
-	latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode" -use-make project.tex
+all: pdf
+
+pdf: project.tex
+	latexmk $(COMMON_FLAGS) $<
+
+dev: project.tex
+	latexmk $(COMMON_FLAGS) -pvc -view=none $<
 
 clean:
-	latexmk -CA
+	latexmk $(COMMON_FLAGS) -c
