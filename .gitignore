@@ -1,0 +1,4 @@
+project.*
+!project.tex
+title_page.*
+!title_page.tex
